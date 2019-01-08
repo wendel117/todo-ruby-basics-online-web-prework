@@ -11,7 +11,8 @@ def argue(phrase = "I'm right and you are wrong!")
   phrase
 end
 
-def greeting
+def greeting(greeting, name)
+  puts "Hi there, #{name}"
 
 end
 
